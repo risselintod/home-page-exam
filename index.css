@@ -1,0 +1,109 @@
+:root {
+  --orange: #f97316;
+  --green: #10b981;
+  --white: #ffffff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--white);
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--orange);
+}
+.navbar-brand, .nav-link {
+  color: var(--white) !important;
+  font-weight: 600;
+}
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+#home {
+  background: linear-gradient(to right, var(--orange), var(--green));
+  color: var(--white);
+  padding: 100px 20px;
+  text-align: center;
+}
+#home h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#home p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+  padding: 60px 0;
+}
+.section-title {
+  color: var(--orange);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Products */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+.product-card:hover {
+  transform: scale(1.02);
+}
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.btn-buy {
+  background-color: var(--green);
+  color: var(--white);
+  font-weight: bold;
+}
+.btn-buy:hover {
+  background-color: #0f9f6e;
+}
+
+/* Footer */
+footer {
+  background-color: var(--orange);
+  color: var(--white);
+  text-align: center;
+  padding: 20px 0;
+}
+
+#home {
+  background-image: url('./public/home1.jpg'); /* Will use ./public/home1.jpg when served */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* darkens image for text contrast */
+  z-index: 1;
+}
+
+.product-card img {
+  width: 100%;
+  height: 500px; /* You can adjust height as needed */
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+}

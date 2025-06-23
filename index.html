@@ -1,0 +1,177 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rissel Skin Essentials</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="./public/icon.png" type="image/x-icon"/>
+  <title>Rissel Skin Essentials</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Rissel Skin Essentials</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Home Section with Background Image and Overlay -->
+<section id="home" class="position-relative text-white text-center d-flex align-items-center justify-content-center">
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+  <div class="container position-relative z-2">
+    <h1 class="display-4 fw-bold">Welcome to Rissel Skin Essentials</h1>
+    <p class="lead">Natural beauty begins with natural skincare</p>
+    <a href="https://www.tiktok.com/@risselskinessentials" class="btn btn-buy">Shop Now</a>
+  </div>
+</section>
+
+<!-- Why Choose Us Section (Matches Reference Layout) -->
+<section id="why-choose-us" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Carousel - Left Column -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div id="chooseCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./public/home.jpg" class="d-block w-100 rounded" alt="Skin Image 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./public/set3.jpg" class="d-block w-100 rounded" alt="Skin Image 2">
+            </div>
+            <div class="carousel-item">
+              <img src="./public/set2.jpg" class="d-block w-100 rounded" alt="Skin Image 3">
+            </div>
+            <div class="carousel-item">
+              <img src="./public/set4.jpg" class="d-block w-100 rounded" alt="Skin Image 4">
+            </div>
+            <div class="carousel-item">
+              <img src="./public/set6.jpg" class="d-block w-100 rounded" alt="Skin Image 4">
+            </div>
+            <div class="carousel-item">
+              <img src="./public/set5.jpg" class="d-block w-100 rounded" alt="Skin Image 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#chooseCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-success rounded-circle p-2" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#chooseCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-success rounded-circle p-2" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Text - Right Column -->
+      <div class="col-md-6 text-center text-md-start px-4">
+        <h2 class="fw-bold text-success mb-3">Why Choose Rissel Skin Essentials?</h2>
+        <p class="lead">
+          At <strong>Rissel Skin Essentials</strong>, we carefully select ingredients that are both natural and effective. Our products are designed to cleanse, nourish, and renew your skin, bringing out your inner glow. Whether you're dealing with acne, dullness, or uneven skin tone, Rissel is your trusted partner in self-care.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products">
+  <div class="container">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="product-card p-3 h-100">
+          <img src="./public/set1.jpg" class="img-fluid" alt="Rejuv Set 1">
+          <h5 class="mt-3">Rejuv Set 1</h5>
+          <p>Complete skincare set for whitening and acne control.</p>
+          <p>
+            <del class="text-muted">₱250.00</del>
+            <span class="fw-bold text-success ms-2">₱150.00</span>
+          </p>
+          <a href="https://www.tiktok.com/@risselskinessentials" class="btn btn-buy w-100">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="product-card p-3 h-100">
+          <img src="./public/toner.jpg" class="img-fluid" alt="Rejuv Toner">
+          <h5 class="mt-3">Rejuv Toner</h5>
+          <p>Minimizes pores, fades blemishes, and hydrates skin.</p>
+          <p>
+            <del class="text-muted">₱65.00</del>
+            <span class="fw-bold text-success ms-2">₱45.00</span>
+          </p>
+          <a href="https://www.tiktok.com/@risselskinessentials" class="btn btn-buy w-100">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="product-card p-3 h-100">
+          <img src="./public/soap.jpg" class="img-fluid" alt="Rejuv Soap">
+          <h5 class="mt-3">Rejuv Soap</h5>
+          <p>Herbal whitening soap with exfoliating power.</p>
+          <p>
+            <del class="text-muted">₱75.00</del>
+            <span class="fw-bold text-success ms-2">₱55.00</span>
+          </p>
+          <a href="https://www.tiktok.com/@risselskinessentials" class="btn btn-buy w-100">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Rissel Skin Essentials</h2>
+      <p class="text-center px-3">
+        We are a proudly local skincare brand committed to natural ingredients, affordable prices, and visible results. Our Rejuvenating line is formulated for all skin types and helps you glow with confidence.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="mb-0">© 2025 Rissel Skin Essentials. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
