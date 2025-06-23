@@ -23,17 +23,17 @@ body {
 }
 
 /* Hero */
-#home {
+#hero {
   background: linear-gradient(to right, var(--orange), var(--green));
   color: var(--white);
   padding: 100px 20px;
   text-align: center;
 }
-#home h1 {
+#hero h1 {
   font-size: 3rem;
   font-weight: bold;
 }
-#home p {
+#hero p {
   font-size: 1.2rem;
 }
 
@@ -81,7 +81,7 @@ footer {
   padding: 20px 0;
 }
 
-#home {
+#hero {
   background-image: url('./public/home1.jpg'); /* Will use ./public/home1.jpg when served */
   background-size: cover;
   background-position: center;
